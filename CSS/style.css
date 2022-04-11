@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@800&family=Hurricane&family=Kaushan+Script&family=Lavishly+Yours&family=Lobster&display=swap");
+
+.logo {
+  border-radius: 10px;
+}
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Dosis", sans-serif;
+  font-size: 10rem;
+  font-weight: bolder;
+}
+
+.nav-item {
+  padding: 0 30px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Dosis", sans-serif;
+}
+
+#navbardrop {
+  font-family: "Dosis", sans-serif;
+  font-weight: bolder;
+}
+
+/* /---------------------------------------------------------------------? */
+
+/* Buttons */
+
+body {
+  /* Height is 100 percent */
+  height: 100vh;
+  background-image: radial-gradient(
+    rgb(214, 186, 214),
+    rgb(151, 148, 169),
+    rgb(171, 168, 168)
+  );
+  padding: 0px;
+  margin: 0px;
+}
+
+/* Scroll bars */
+/* width  of scroll bar*/
+::-webkit-scrollbar {
+  width: 11px;
+}
+
+/* Track  */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle  bar background*/
+::-webkit-scrollbar-thumb {
+  background: rgb(4, 3, 3);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: goldenrod;
+}
+/* -------------------------------------------------------------------------------------- */
+
+/* The overflow-y property specifies whether to clip the content, add a scroll bar, or display overflow content of a block-level element, when it overflows at the top and bottom edges. */
+.container {
+  width: 85%;
+  margin: auto;
+  height: 75vh;
+  padding: 33px;
+  overflow-y: auto;
+  /* /for scroll */
+  margin-bottom: 20px;
+  border-radius: 50px;
+
+  border: 15px solid hsla(0, 0%, 100%, 0.5);
+  background-image: url(../images/bg1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation-name: example;
+  animation-duration: 300s;
+  /* Yhaa Animation lgaa denge  */
+}
+
+@keyframes example {
+  0% {
+    background-image: url(../images/bg1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  10% {
+    background-image: url(../images/back2.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  20% {
+    background-image: url(../images/back3.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  30% {
+    background-image: url(../images/backapp4.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  40% {
+    background-image: url(../images/back5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  50% {
+    background-image: url(../images/back6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  60% {
+    background-image: url(../images/back7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  70% {
+    background-image: url(../images/back8.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  80% {
+    background-image: url(../images/back5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  90% {
+    background-image: url(../images/bg1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  100% {
+    background-image: url(../images/back9.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
+.send {
+  margin-top: -100px;
+  width: 100%;
+}
+
+.message {
+  background-color: grey;
+  width: 30%;
+  padding: 10px;
+  margin: 20px 11px;
+  border: 3px solid rgb(1, 30, 41);
+  border-radius: 10px;
+  font-weight: bold;
+  font-family: "Dosis", sans-serif;
+}
+
+.left {
+  float: left;
+  clear: both;
+}
+
+.right {
+  float: right;
+  clear: both;
+}
+
+.middle
+{
+text-align: center;
+ clear: both;
+ background-color: red;
+}
+
+.join
+{
+text-align: center;
+ clear: both;
+ background-color: rgb(16, 184, 38);
+
+}
+
+#send-container {
+  width: 80%;
+  display: block;
+  position: relative;
+  margin-left: 10%;
+  top: 5%;
+  text-align: center;
+}
+
+#messageInp {
+  /* display: none; */
+  position: relative;
+  top: 10%;
+  font-family: "Dosis", sans-serif;
+}
+
+.btn {
+  border: 5px solid black;
+  background-color: whitesmoke;
+  position: relative;
+  border-radius: 10px;
+  font-weight: bold;
+  font-family: "Dosis", sans-serif;
+}
+
+.btn:hover {
+  background-color: grey;
+}
+
+.container-fluid {
+  margin-top: -50px;
+  padding: 7% 15%;
+}
+
+.social-icon {
+  margin: 15px 10px;
+}
